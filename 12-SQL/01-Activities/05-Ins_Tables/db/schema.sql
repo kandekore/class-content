@@ -13,3 +13,7 @@ CREATE TABLE produce (
   name VARCHAR(100) NOT NULL
 );
 
+CREATE TABLE customer (
+    -> id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    -> name VARCHAR(50) NOT NULL,
+    -> age INT NOT NULL);

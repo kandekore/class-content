@@ -7,6 +7,15 @@
       Description:
       {{description}}
     </p>
-<!-- TODO: Use a built-in helper to display "Contains Nuts" if a food item contains nuts.-->
+    <!-- TODO: Use a built-in helper to display "Contains Nuts" if a food item contains nuts.-->
+
+    {{#if has_nuts}}
+
+      <p>has nuts</p>
+    {{else}}
+      <p>No nuts</p>
+
+    {{/if}}
+
   </div>
 </div>
